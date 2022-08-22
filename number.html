@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="number.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ae64726757.js" crossorigin="anonymous"></script>
+    <title>Guessing Number</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <h2>Guessing Numbers Game</h2>
+                
+                
+                <div class="heart" id="hearts">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="row">
+                <div class="entering">
+                    <h5>Enter number you think</h5>
+                    <input class="input" id="number" type="number" placeholder="Enter numbers...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="buttons">
+                    <button id="btn-guess" class="btn-right btn-show" onclick="Guess();">Guess</button><br>
+                    <button id="btn-again" class="btn-left btn-hide" onclick="Again();">Try Again</button>
+                </div>
+                <div class="column">
+                    <p id="result"></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="number.js"></script>
+
+</html>

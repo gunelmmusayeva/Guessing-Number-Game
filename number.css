@@ -1,0 +1,90 @@
+*
+{
+    margin: auto;
+    padding: auto;
+}
+
+body
+{
+    background-color: #424242 ;
+}
+
+.fas 
+{
+color: red;
+}
+
+.container
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 530px;
+    height: 220px;
+    margin-top: 100px;
+    padding: 30px;
+}
+.heart
+{
+    float: right;
+    
+}
+h5{
+    font-size: 17px;
+    float: left;
+    margin: 10px;
+}
+
+.input
+{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.2px solid gray ;
+    
+}
+
+#btn-guess
+{
+margin: 10px 0;
+width: 509px;
+background-color: rgb(91, 60, 202);
+border: none;
+height: 30px;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+
+}
+
+#btn-again
+{
+    width: 509px;
+    background-color: rgb(214, 51, 59);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+#btn-guess:hover
+{
+    background-color:  rgb(132, 115, 196);
+}
+#btn-again:hover
+{
+    background-color:  rgb(221, 122, 127);
+}
+.btn-hide
+{
+    display: none;
+
+}
+.btn-show
+{
+    display: inline-block;
+}
